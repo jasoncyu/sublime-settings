@@ -1,4 +1,22 @@
-// Settings in here override those in "Default/Preferences.sublime-settings", and
-// are overridden in turn by file type specific settings.
 {
+	"command": "surround_selection",
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".meteor"
+	],
+	"font_face": "Consolas",
+	"font_size": 15.0,
+	"forward_sync": false,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		""
+	],
+	"remember_open_files": false,
+	"translate_tabs_to_spaces": true,
+	"vintage_start_in_command_mode": true
 }

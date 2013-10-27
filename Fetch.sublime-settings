@@ -1,0 +1,16 @@
+{
+	"files":
+	{
+		"bootstrap-css": "http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css",
+		"bootstrap-js": "http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js",
+		"jquery": "http://code.jquery.com/jquery.min.js",
+		"jquery-mobile": "http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.js",
+		"prefix-free": "https://raw.github.com/LeaVerou/prefixfree/gh-pages/prefixfree.min.js"
+	},
+	"packages":
+	{
+		"html5_boilerplate": "https://github.com/h5bp/html5-boilerplate/zipball/master",
+		"jquery-timer": "http://keith-wood.name/zip/jquery.countdown.package-1.6.2.zip",
+		"x-editable": "http://vitalets.github.io/x-editable/assets/zip/bootstrap-editable-1.4.5.zip"
+	}
+}

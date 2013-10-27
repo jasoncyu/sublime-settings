@@ -1,2 +1,48 @@
-[
+[		
+	{ "keys": ["j", "j"], "command": "exit_insert_mode",
+	"context":
+	[
+		{ "key": "setting.command_mode", "operand": false },
+		{ "key": "setting.is_widget", "operand": false }
+	]
+	},
+    { "keys": ["J", "J"], "command": "exit_insert_mode",
+    "context":
+    [
+        { "key": "setting.command_mode", "operand": false },
+        { "key": "setting.is_widget", "operand": false }
+    ]
+    },
+
+    { "keys":["z"], "command": "run_macro_file", "args": {"file": "Packages/User/Add Space.sublime-macro"},
+        "context":
+        [
+            {"key": "setting.command_mode", "operand": true}
+        ]
+    },
+
+    { "keys": ["super+alt+ctrl+v"], "command": "clipboard_manager_choose_and_paste" },
+    { "keys": ["super+m"], "command": "insert_snippet", 
+      "args": {
+        "name": "Packages/User/latex_faster-dollar.sublime-snippet"
+        }
+    },
+
+    //Surround
+    { "keys": ["ctrl+shift+s"], "command": "surround_selection"},
+    { "keys": ["ctrl+shift+c"], "command": "surround_change"},
+    { "keys": ["ctrl+shift+d"], "command": "surround_delete"},
+    { "keys": ["super+v"], "command": "paste_and_indent" },
+
+    //Reindent easily, useful for html
+    { "keys": ["ctrl+shift+r"], "command": "reindent" , "args": { "single_line": false } },
+
+    //In vintage, scroll the screen without moving mouse. Amount is increased from 1.0
+    { "keys": ["ctrl+y"], "command": "scroll_lines", "args": {"amount": 5.0 },
+        "context": [{"key": "setting.command_mode"}, {"key": "setting.vintage_ctrl_keys"}]
+    },
+
+    { "keys": ["ctrl+e"], "command": "scroll_lines", "args": {"amount": -5.0 },
+        "context": [{"key": "setting.command_mode"}, {"key": "setting.vintage_ctrl_keys"}]
+    }
 ]

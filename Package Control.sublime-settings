@@ -1,0 +1,26 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Alignment",
+		"Clipboard Manager",
+		"CoffeeScript",
+		"Emmet",
+		"Gist",
+		"Git",
+		"GotoLastEdit",
+		"Handlebars",
+		"IcedCoffeeScript",
+		"jQuery",
+		"jQuery Snippets pack",
+		"LaTeXTools",
+		"Nettuts+ Fetch",
+		"Package Control",
+		"Prefixr",
+		"SideBarEnhancements",
+		"sublime-jslint",
+		"Surround",
+		"Theme - Soda",
+		"Vintage Surround"
+	]
+}

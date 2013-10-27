@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+\\begin{tabular}{r|r|r|r}
+    Nodes & Problem Size & Work per Node & Total Work \\\\ \\hline
+    X & X & X & X \\\\
+    X & X & X & X \\\\
+    X & X & X & X \\\\
+\\end{tabular}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>worktree</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.tex.latex</scope>
+</snippet>

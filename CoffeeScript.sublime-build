@@ -1,0 +1,3 @@
+{"cmd": ["coffee", "$file"],
+"selector" : "source.coffee",
+"path" : "/usr/local/lib/node_modules"}

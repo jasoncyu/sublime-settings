@@ -1,0 +1,11 @@
+{
+	// Your username on GitHub
+	"username": "Zinbiel",
+
+	// Your password on GitHub
+	"password": "a5a0f6a0",
+
+	// Proxy server
+	// Format: "http://user:pass@proxy:port"
+	"https_proxy": ""
+}

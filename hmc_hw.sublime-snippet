@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+\documentclass[12pt, letterpaper,boxed]{hmcpset}
+\usepackage[margin=1in]{geometry}
+\usepackage{verbatim}
+
+\name{Jason Yu}
+\class{}
+\assignment{Homework}
+\duedate{}
+
+\begin{document}
+\problemlist{}
+\begin{problem}
+    
+\end{problem}
+\begin{solution}
+    
+\end{solution}
+\end{document}       
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>hw</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.tex</scope> -->
+</snippet>
